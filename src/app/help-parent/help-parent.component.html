@@ -1,0 +1,50 @@
+<!-- Main content -->
+<div class="wrapper">
+  <mat-stepper  [linear]="isLinear" #stepper (selectionChange)="onSelectionChange($event)">
+    <!-- Step 1 -->
+    <mat-step [stepControl]="firstFormGroup">
+      <mat-drawer-container class="example-container">
+        <div class="stepper-content">
+          <app-sample-form></app-sample-form>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext (click)="getStepperIndex()">Next</button>
+          <button mat-button (click)="toggleDrawer()">Toggle Drawer</button>
+        </div>
+      </mat-drawer-container>
+    </mat-step>
+
+    <!-- Step 2 -->
+    <mat-step [stepControl]="secondFormGroup" label="Fill out your address">
+      <mat-drawer-container class="example-container">
+        <div class="stepper-content">
+          <app-sample-form></app-sample-form>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext (click)="getStepperIndex()">Next</button>
+          <button mat-button (click)="toggleDrawer()">Toggle Drawer</button>
+        </div>
+      </mat-drawer-container>
+    </mat-step>
+
+    <!-- Step 3 -->
+    <mat-step>
+      <mat-drawer-container class="example-container">
+        <div class="stepper-content">
+          <app-sample-form></app-sample-form>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext (click)="getStepperIndex()">Next</button>
+          <button mat-button (click)="toggleDrawer()">Toggle Drawer</button>
+        </div>
+      </mat-drawer-container>
+    </mat-step>
+  </mat-stepper>
+
+  <!-- Toggle button for the drawer -->
+</div>
+
+<!-- Side drawer -->
+<mat-drawer mode="side" position="end" #drawer class="example-sidenav">
+  <!-- Add your content for the drawer here -->
+  <div >
+    <p>Drawer Content</p>
+  </div>
+</mat-drawer>

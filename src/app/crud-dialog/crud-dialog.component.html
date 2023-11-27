@@ -1,0 +1,48 @@
+<div>
+  <h1 mat-dialog-title>Edit the Element {{ data.name }}</h1>
+
+  <form mat-dialog-content [formGroup]="elementForm" class="container">
+    <mat-form-field>
+      <mat-label> Name </mat-label>
+      <input matInput formControlName="name" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label> Weight </mat-label>
+      <input matInput formControlName="weight" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label> Symbol </mat-label>
+      <input matInput formControlName="symbol" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label> Classification </mat-label>
+      <mat-select formControlName="classification" [(value)]="classification[0]" >
+        <mat-option *ngFor="let item of classification" [value]="item">{{
+          item
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label> Group </mat-label>
+      <mat-select formControlName="group" [(value)]="group[0]">
+        <mat-option *ngFor="let item of group" [value]="item">{{
+          item
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div mat-dialog-actions class="actions-btn">
+      <button mat-raised-button (click)="onSaveEdit()" color="primary">
+        Save
+      </button>
+      <button mat-raised-button [mat-dialog-close]="true" color="secondary">
+        No
+      </button>
+    </div>
+  </form>
+</div>
+<mat-spinner *ngIf="loading" ></mat-spinner>

@@ -1,0 +1,357 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "periodicElements": [
+    {
+      "id": 7,
+      "name": "Nitrogen is new",
+      "weight": 14.0067,
+      "symbol": "N",
+      "group": "Alkali-Metal",
+      "classification": "Metals"
+    },
+    {
+      "id": 8,
+      "name": "Oxygen",
+      "weight": 15.9994,
+      "symbol": "O",
+      "group": "Nonmetal",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 9,
+      "name": "Fluorine",
+      "weight": 18.9984,
+      "symbol": "F",
+      "group": "Halogen",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 11,
+      "name": "Sodium",
+      "weight": 22.9897,
+      "symbol": "Na",
+      "group": "Alkali Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 12,
+      "name": "Magnesium",
+      "weight": 24.305,
+      "symbol": "Mg",
+      "group": "Alkaline Earth Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 13,
+      "name": "Aluminum",
+      "weight": 26.9815,
+      "symbol": "Al",
+      "group": "Post-transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 14,
+      "name": "Silicon",
+      "weight": 28.0855,
+      "symbol": "Si",
+      "group": "Metalloid",
+      "classification": "Metalloid"
+    },
+    {
+      "id": 15,
+      "name": "Phosphorus",
+      "weight": 30.9738,
+      "symbol": "P",
+      "group": "Nonmetal",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 16,
+      "name": "Sulfur",
+      "weight": 32.065,
+      "symbol": "S",
+      "group": "Nonmetal",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 17,
+      "name": "Chlorine",
+      "weight": 35.453,
+      "symbol": "Cl",
+      "group": "Halogen",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 18,
+      "name": "Argon",
+      "weight": 39.948,
+      "symbol": "Ar",
+      "group": "Noble Gas",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 19,
+      "name": "Potassium",
+      "weight": 39.0983,
+      "symbol": "K",
+      "group": "Alkali Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 20,
+      "name": "Calcium",
+      "weight": 40.078,
+      "symbol": "Ca",
+      "group": "Alkaline Earth Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 22,
+      "name": "Titanium",
+      "weight": 47.867,
+      "symbol": "Ti",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 23,
+      "name": "Vanadium",
+      "weight": 50.9415,
+      "symbol": "V",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 24,
+      "name": "Chromium",
+      "weight": 51.9961,
+      "symbol": "Cr",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 25,
+      "name": "Manganese",
+      "weight": 54.938,
+      "symbol": "Mn",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 26,
+      "name": "Iron",
+      "weight": 55.845,
+      "symbol": "Fe",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 27,
+      "name": "Cobalt",
+      "weight": 58.9332,
+      "symbol": "Co",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 28,
+      "name": "Nickel",
+      "weight": 58.6934,
+      "symbol": "Ni",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 29,
+      "name": "Copper",
+      "weight": 63.546,
+      "symbol": "Cu",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 30,
+      "name": "Zinc",
+      "weight": 65.38,
+      "symbol": "Zn",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 31,
+      "name": "Gallium",
+      "weight": 69.723,
+      "symbol": "Ga",
+      "group": "Post-transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 32,
+      "name": "Germanium",
+      "weight": 72.63,
+      "symbol": "Ge",
+      "group": "Metalloid",
+      "classification": "Metalloid"
+    },
+    {
+      "id": 33,
+      "name": "Arsenic",
+      "weight": 74.9216,
+      "symbol": "As",
+      "group": "Metalloid",
+      "classification": "Metalloid"
+    },
+    {
+      "id": 34,
+      "name": "Selenium",
+      "weight": 78.971,
+      "symbol": "Se",
+      "group": "Nonmetal",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 35,
+      "name": "Bromine",
+      "weight": 79.904,
+      "symbol": "Br",
+      "group": "Halogen",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 36,
+      "name": "Krypton",
+      "weight": 83.798,
+      "symbol": "Kr",
+      "group": "Noble Gas",
+      "classification": "Non-metal"
+    },
+    {
+      "id": 37,
+      "name": "Rubidium",
+      "weight": 85.4678,
+      "symbol": "Rb",
+      "group": "Alkali Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 38,
+      "name": "Strontium",
+      "weight": 87.62,
+      "symbol": "Sr",
+      "group": "Alkaline Earth Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 39,
+      "name": "Yttrium",
+      "weight": 88.9058,
+      "symbol": "Y",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 40,
+      "name": "Zirconium",
+      "weight": 91.224,
+      "symbol": "Zr",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 41,
+      "name": "Niobium",
+      "weight": 92.9064,
+      "symbol": "Nb",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 42,
+      "name": "Molybdenum",
+      "weight": 95.94,
+      "symbol": "Mo",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 43,
+      "name": "Technetium",
+      "weight": 98,
+      "symbol": "Tc",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 44,
+      "name": "Ruthenium",
+      "weight": 101.07,
+      "symbol": "Ru",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 45,
+      "name": "Rhodium",
+      "weight": 102.9055,
+      "symbol": "Rh",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 46,
+      "name": "Palladium",
+      "weight": 106.42,
+      "symbol": "Pd",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 47,
+      "name": "Silver",
+      "weight": 107.8682,
+      "symbol": "Ag",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 48,
+      "name": "Cadmium",
+      "weight": 112.414,
+      "symbol": "Cd",
+      "group": "Transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 49,
+      "name": "Indium",
+      "weight": 114.818,
+      "symbol": "In",
+      "group": "Post-transition Metal",
+      "classification": "Metal"
+    },
+    {
+      "id": 50,
+      "name": "Tin",
+      "weight": 118.71,
+      "symbol": "Sn",
+      "group": "Post-transition Metal",
+      "classification": "Metal"
+    }
+  ]
+}

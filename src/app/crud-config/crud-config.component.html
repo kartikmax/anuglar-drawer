@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title> Configure the Table grid here </mat-card-title>
+  </mat-card-header>
+  <form [formGroup]="configForm">
+    <ul>
+      <li class="list">
+        <mat-checkbox formControlName="no">No</mat-checkbox>
+      </li>
+      <li class="list">
+        <mat-checkbox formControlName="name">Name</mat-checkbox>
+      </li>
+      <li class="list">
+        <mat-checkbox formControlName="symbol">Symbol</mat-checkbox>
+      </li>
+      <li class="list">
+        <mat-checkbox formControlName="classification"
+          >Classification</mat-checkbox
+        >
+      </li>
+      <li class="list">
+        <mat-checkbox formControlName="group">Group</mat-checkbox>
+      </li>
+      <li class="list">
+        <mat-checkbox formControlName="weight">Weight</mat-checkbox>
+      </li>
+      <li class="list">
+        <mat-checkbox formControlName="actions">Actions</mat-checkbox>
+      </li>
+    </ul>
+  </form>
+{{configFormJson}}
+</mat-card>

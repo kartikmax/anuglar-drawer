@@ -1,0 +1,19 @@
+.example-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Hide the scrollbar when not needed */
+}
+
+.stepper-content {
+  overflow-y: auto; /* Allow scrolling for the form content if needed */
+  height: 100%; /* Take up the full height of the container */
+}
+
+.drawer-content {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.wrapper {
+    width: 95vw;
+}
